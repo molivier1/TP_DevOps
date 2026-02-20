@@ -21,3 +21,7 @@ Utilisation de GitHub avec commits réguliers et compréhensibles.
 
 
 ## Installation
+
+Pour utiliser le jeu en local, il faut cloner le projet et executer la commande : docker compose up --build
+
+Le volume alloué pour le stockage des scores se trouve à /var/lib/mysql dans l'image db.
