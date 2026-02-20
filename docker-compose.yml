@@ -1,0 +1,20 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: tetris
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/data
+
+volumes:
+  db_data:
