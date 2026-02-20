@@ -10,7 +10,7 @@ Il n'est pas question de faire un jeu très avancé mais surtout de mettre en oe
 
 Image docker pour le jeu/BDD en MySQL pour stocker les scores.
 
-GitHub pages mis en place.
+GitHub pages mis en place à https://molivier1.github.io/TP_DevOps/public/
 
 README réalisé (WIP)
 
