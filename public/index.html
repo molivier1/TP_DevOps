@@ -13,6 +13,24 @@
 
     <canvas id="tetris" width="300" height="600"></canvas>
 
+    <form id="postScore">
+        <h2>Test post score</h2>
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom">
+        <br>
+        <label for="score">Score :</label>
+        <input type="number" name="score" min="0" id="score">
+        <br>
+        <input type="button" value="Post score" onclick="posterScore()">
+    </form>
+
+    <div>
+        <h2>Top 10 Scores</h2>
+        <button onclick="recupScores()">Afficher les scores</button>
+
+        <ul id="listeScores"></ul>
+    </div>
+
     <script src="tetris.js"></script>
 </body>
 
